@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ignition</string>
+    <string name="spark">Spark</string>
+    <string name="start">Start</string>
+    <string name="get_new_text">Get New Text.</string>
+    <string name="lyrics_here">Lyrics Here</string>
+</resources>

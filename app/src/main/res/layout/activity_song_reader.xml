@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nf.co.rugy.ignition.SongReaderActivity">
+
+    <ScrollView
+        android:id="@+id/song_reader_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TextView
+            android:id="@+id/song_reader_scrollView_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lyrics_here"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/song_reader_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/get_new_text"/>
+
+    <TextView
+        android:id="@+id/song_reader_textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/song_reader_button"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
